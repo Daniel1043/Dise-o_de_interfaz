@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+
+#first{
+    background-color: red;
+    border-bottom: yellow 5px dashed;
+    border-top: green 5px solid;
+    margin-right: 1300px;
+    margin-left: 20px;
+
+}
+#second{
+    background-color: blue;
+    border-bottom: yellow 5px dashed;
+    border-top: green 5px solid;
+    margin-right: 1650px;
+    margin-left: 20px;
+
+}
+img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+span{
+    
+        text-decoration: underline;
+        
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+
+.recre{
+    background-color: yellow;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    font-weight: bold;
+
+}
+td:hover{
+   font-size: 30px;
+   
+}
+.hor{
+    background-color: green;
+}
+a{
+    color: green;
+    font-size: 30px;
+    text-decoration:none;
+}
+a:visited{
+    color: red;
+}
+header{
+    margin-left: 100px;
+}
+table{
+    border-color: black;
+}
+
+.primerImput {
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: black;
+  }
+
+.colorRed{
+ color: red;
+}

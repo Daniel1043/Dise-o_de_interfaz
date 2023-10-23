@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table >
+        <td>
+       <h1>Registro de nuevo usuario </h1>
+                <p>
+                <label for="nombre">Nombre*</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Introduzca su Nombre" required />
+                </p>
+                
+                <p>
+                <label for="apellidos">Apellidos*</label>
+                <br>
+                <input type="text" name="apellidos" placeholder="Introduzca sus apellidos" required />
+                </p>
+                        <p>
+                        <label for="nick">Nick*</label>
+                        <br>
+                        <input type="text" name="nick" placeholder="Introduzca nombre de usuario" required />
+                        </p>
+                <p>
+                <label for="emails">Direccion de email*</label>
+                <br>
+                <input type="email" name="emails" placeholder="Introduzca una direccion de email" required />
+                </p>
+    
+                 <p>
+                <label for="contraseñ">Contraseña*</label>
+                <br>
+                <input type="password" name="contraseñ" placeholder="Minimo 8 caracteres. Debe incluir numeros y mayusculas" required />
+                </p>
+            
+                    <p>
+                    <label for="contraseñrep">Repetir Contraseña*</label>
+                    <br>
+                    <input type="password" name="contraseñrep" value="contraseñ" placeholder="Vuelva a introducir la contraseña" required />
+                    </p>
+
+                    <p>
+                        <input type="checkbox" name="Condicionesuso" value="si" />
+                        <label for="Condicionesuso">Acepto las <a href="">condiciones de uso</a></label><br />
+
+                        <input type="checkbox" name="Condicionespol" value="si" />
+                        <label for="Condicionespol">Acepto la <a href="">Politica de Privacidad</a></label><br />
+
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <label for="dir">Direccion</label>
+                        <br>
+                        <input type="text" name="dir" placeholder="Introduzca su direccion"  />
+                    </p>
+                    
+                    <table>
+                        <tr>
+                            <td>
+                        
+                            <label for="loc">Localidad</label>
+                            <br>
+                            <input type="text" name="loc" placeholder="Introduzca su localidad"  />
+                        
+                            </td>
+                            <td align="center">
+                            
+                                <select name="provincia">
+                                    <optgroup label="Selecciona una provincia" >
+                                    <option value="Z">Zaragoza</option>
+                                    <option>Huesca</option>
+                                    <option>Teruel</option>
+                                    </optgroup>
+                                   </select>
+                            
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                        
+                            <label for="tlf">Telefono</label>
+                            <br>
+                            <input type="text" name="tlf" placeholder="Introduzca su telefono" required />
+                        
+                            </td>
+                            <td>
+                            
+                                <label for="dni">DNI</label>
+                                <br>
+                                <input type="text" name="dni" placeholder="Introduzca su DNI" required />
+                            
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                            
+                                <select name="provincia">
+                                    <optgroup label="Selecciona un diario" >
+                                    <option value="Z">primero</option>
+                                    <option>segundo</option>
+                                    <option>Tercero</option>
+                                    </optgroup>
+                                   </select>
+                            
+                            </td>
+                            <td>
+                            
+                                <label for="inte">Interes</label>
+                                <br>
+                                <input type="text" name="inte" placeholder="0 seleccionados" required />
+                            
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <input type="checkbox" name="Condicionesuso" value="si" />
+                    <label for="Condicionesuso">Compro habitualmente el diario en papel</label><br />
+
+                    <input type="checkbox" name="Condicionespol" value="si" />
+                    <label for="Condicionespol">Deseo recibir noticias de Diario de Sevilla, asi como novedades sobre servicios exclusivos de Diario de Sevilla y su grupo, incluso por via electronica </label><br />
+
+                    <input type="checkbox" name="Condicionespol" value="si" />
+                    <label for="Condicionespol">Deseo recbir novedades y comunicaciones relativas a terceras empresas de estos sectores, incluso por via electronica</label><br />
+                </td>
+                
+
+                
+
+                
+                </table>
+                
+                
+                   
+
+                
+                
+                <p>
+                <input type="submit" value="REGISTRATE" />
+                </p>
+     
+</body>
+</html>
